@@ -1,4 +1,4 @@
-About
+About - UNMAINTAINED - No Maintenance Intended
 =========
 
 This module is designed to fetch your external IP address from the internet.
