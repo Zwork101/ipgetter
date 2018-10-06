@@ -2,10 +2,10 @@ from distutils.core import setup
             
 setup(
     name='ipgetter',
-    version='0.7',
+    version='1.0',
     author='Fernando Giannasi <phoemur@gmail.com>',
     url='https://github.com/phoemur/ipgetter',
-    download_url = 'https://github.com/phoemur/ipgetter/tarball/0.7',
+    download_url='https://github.com/phoemur/ipgetter/tarball/0.7',
 
     description="Utility to fetch your external IP address",
     license="WTFPL",
@@ -20,7 +20,7 @@ setup(
         'Topic :: Utilities',
     ],
 
-    py_modules=['ipgetter'],
+    packages=['ipgetter'],
 
     long_description='''This module is designed to fetch your external IP address from the internet. It is used mostly when behind a NAT. It picks your IP 
 randomly from a serverlist to minimize request overhead on a single server
